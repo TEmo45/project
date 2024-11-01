@@ -1,0 +1,13 @@
+<h3>{{title}}</h3>
+
+<div *ngFor="let user of users">
+
+<ul *ngIf="user.age>20" >
+
+  <h1>name: {{user.firstname}}</h1> <h1>lastname: {{user.lastname}}</h1> <h1>age: {{user.age}}</h1>
+  <h2>---------</h2>
+  
+</ul>
+
+</div>
+
